@@ -1,0 +1,21 @@
+name:                pipes-project
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            http://github.com/githubuser/pipes-project#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Edmund Cape
+maintainer:          edmund.cape@gmail.com
+copyright:           2010 Author Here
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable stack-project
+  hs-source-dirs:      src
+  main-is:             pipes_102.hs
+  default-language:    Haskell2010
+  build-depends:       base
+                     , pipes
+                     , conduit-extra

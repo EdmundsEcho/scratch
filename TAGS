@@ -1,0 +1,2209 @@
+
+./ApplicativeFoldMath.hs,171
+data Hole Hole4,5
+data Hole = HoleHole4,5
+hole hole5,6
+sumSq sumSq7,8
+sumSq sumSq8,9
+average average10,11
+average average11,12
+std std13,14
+std std14,15
+
+./ApplicativeParsec_v1.hs,0
+
+./breadcrumbs.hs,32
+main main0,1
+evens evens3,4
+
+./comp.hs,404
+f f2,3
+f f3,4
+g g5,6
+g g6,7
+a a8,9
+a a9,10
+newtype Compose Compose11,12
+    Compose Compose12,13
+    Compose { getComp getComp12,13
+instance instance14,15
+newtype ThreeComp ThreeComp36,37
+    ThreeComp ThreeComp37,38
+    ThreeComp { getThreeComp getThreeComp37,38
+x x47,48
+ca ca48,49
+cf1 cf149,50
+cf2 cf250,51
+cff cff51,52
+caa caa52,53
+c3a c3a54,55
+c3f c3f55,56
+
+./composingtypes.hs,513
+newtype Identity Identity3,4
+    Identity Identity4,5
+    Identity { runIdentity runIdentity4,5
+newtype Compose Compose8,9
+    Compose Compose9,10
+    Compose { getCompose getCompose9,10
+instance instance16,17
+newtype MaybeT MaybeT26,27
+    MaybeT MaybeT27,28
+    MaybeT { runMaybeT runMaybeT27,28
+newtype ReaderT ReaderT33,34
+    ReaderT ReaderT34,35
+    ReaderT { runReaderT runReaderT34,35
+newtype StateT StateT36,37
+    StateT StateT37,38
+    StateT { runStateT runStateT37,38
+
+./Continuation notes.hs,300
+fork fork11,12
+fork fork12,13
+data Concurrent Concurrent13,14
+data Concurrent a2 = Concurrent Concurrent13,14
+data Action Action14,15
+data Action = Atom Atom14,15
+data Action = Atom ( IO Action ) | Fork Fork14,15
+data Action = Atom ( IO Action ) | Fork Action Action | Stop Stop14,15
+
+./countdown.hs,912
+data Op Op3,4
+data Op = Add Add3,4
+data Op = Add | Sub Sub3,4
+data Op = Add | Sub | Mul Mul3,4
+data Op = Add | Sub | Mul | Div Div3,4
+data Expr Expr4,5
+data Expr = Val Val4,5
+data Expr = Val Int | App App4,5
+apply apply7,8
+apply apply8,9
+valid valid14,15
+valid valid15,16
+eval eval23,24
+eval eval24,25
+choices choices32,33
+choices choices33,34
+values values38,39
+values values39,40
+solution solution47,48
+solution solution48,49
+split split53,54
+split split54,55
+exprs exprs60,61
+exprs exprs62,63
+combine combine71,72
+combine combine72,73
+solutions solutions76,77
+solutions solutions77,78
+type Result Result91,92
+results results99,100
+combine' combine'106,107
+combine' combine'107,108
+solutions' solutions'112,113
+solutions' solutions'113,114
+removeone removeone118,119
+isChoice isChoice122,123
+split' split'126,127
+split' split'127,128
+
+./countdown_focus.hs,220
+data Tree Tree2,3
+data Tree a = LeafLeaf2,3
+            | Node Node3,4
+repeatTree repeatTree6,7
+repeatTree repeatTree7,8
+split split13,14
+split split14,15
+fibs fibs18,19
+fib fib20,21
+--fib --fib21,22
+
+./countdown_vedx.lhs,1596
+ data Op Op12,13
+ data Op                       =  Add Add12,13
+ data Op                       =  Add | Sub Sub12,13
+ data Op                       =  Add | Sub | Mul Mul12,13
+ data Op                       =  Add | Sub | Mul | DivDiv12,13
+ valid valid14,15
+ valid valid15,16
+ apply apply20,21
+ apply apply21,22
+ data Expr Expr26,27
+ data Expr                     =  Val Val26,27
+ data Expr                     =  Val Int | App App26,27
+ values values28,29
+ values values29,30
+ eval eval32,33
+ eval eval33,34
+ subs subs41,42
+ subs subs42,43
+ interleave interleave46,47
+ interleave interleave47,48
+ perms perms50,51
+ perms perms51,52
+ choices choices54,55
+ choices choices55,56
+ solution solution60,61
+ solution solution61,62
+ split split66,67
+ split split67,68
+ exprs exprs70,71
+ exprs exprs71,72
+ combine combine78,79
+ combine combine79,80
+ ops ops81,82
+ ops ops82,83
+ solutions solutions84,85
+ solutions solutions85,86
+ type Result Result92,93
+ results results94,95
+ results results95,96
+ combine' combine'102,103
+ combine' combine'103,104
+ solutions' solutions'106,107
+ solutions' solutions'107,108
+ valid' valid'114,115
+ valid' valid'115,116
+ results' results'120,121
+ results' results'121,122
+ combine'' combine''128,129
+ combine'' combine''129,130
+ solutions'' solutions''132,133
+ solutions'' solutions''133,134
+ instance instance140,141
+ showtime showtime153,154
+ showtime showtime154,155
+ display display157,158
+ display display158,159
+ main main184,185
+ main main185,186
+
+./csv_vector.hs,534
+data File File11,12
+data File = File File11,12
+data File = File {name:name11,12
+inFile inFile14,15
+outFile outFile15,16
+data InputRow InputRow17,18
+data InputRow = InputRowInputRow17,18
+               { uid uid18,19
+               , specialty specialty19,20
+               , timeSeries timeSeries20,21
+data TimeSeries TimeSeries23,24
+data TimeSeries = TimeSeries TimeSeries23,24
+type Uid Uid24,25
+type Specialty Specialty25,26
+csvBSToRecs csvBSToRecs28,29
+csvBSToRecs csvBSToRecs29,30
+main main38,39
+
+./edx.hs,970
+all' all'2,3
+all'' all''3,4
+all''' all'''4,5
+all'''' all''''5,6
+all''''' all'''''6,7
+any' any'8,9
+any'' any''9,10
+any''' any'''10,11
+any'''' any''''11,12
+any''''' any'''''12,13
+takeWhile' takeWhile'14,15
+takeWhile' takeWhile'15,16
+dropWhile' dropWhile'19,20
+dropWhile' dropWhile'20,21
+map' map'25,26
+--map' --map'26,27
+map' map'27,28
+filter' filter'29,30
+filter' filter'30,31
+filter'' filter''33,34
+filter'' filter''34,35
+dec2int dec2int36,37
+dec2int dec2int37,38
+sumsqreven sumsqreven39,40
+compose compose40,41
+compose compose41,42
+curry' curry'47,48
+curry' curry'48,49
+uncurry' uncurry'52,53
+uncurry' uncurry'53,54
+test test55,56
+test2 test256,57
+type Bit Bit62,63
+int2bin int2bin64,65
+int2bin int2bin65,66
+--int2bin' --int2bin'68,69
+chop8 chop872,73
+chop8 chop873,74
+p p93,94
+f f94,95
+xs xs95,96
+ys ys96,97
+t1 t198,99
+t2 t299,100
+t3 t3100,101
+t4 t4101,102
+--t2 --t2102,103
+
+./edx_parser.hs,173
+newtype Parser Parser4,5
+newtype Parser a = P P4,5
+failure failure7,8
+failure failure8,9
+return return10,11
+return return11,12
+item item13,14
+item item14,15
+
+./eitherT.hs,335
+f f2,3
+f f3,4
+g g5,6
+g g6,7
+a a8,9
+a a9,10
+fm fm11,12
+fm fm12,13
+at at14,15
+at at15,16
+newtype EitherT EitherT21,22
+newtype EitherT e m a = EitherT EitherT21,22
+newtype EitherT e m a = EitherT { runEitherT runEitherT21,22
+instance instance26,27
+swapEitherT swapEitherT44,45
+swapEitherT swapEitherT45,46
+
+./foldl.hs,118
+foldl1 foldl12,3
+foldl2 foldl24,5
+foldl3 foldl36,7
+foldl4 foldl48,9
+test_a test_a11,12
+test_a test_a12,13
+
+./hangman.hs,201
+hangman hangman2,3
+hangman hangman3,4
+sgetLine sgetLine9,10
+sgetLine sgetLine10,11
+getCh getCh19,20
+getCh getCh20,21
+guess guess25,26
+guess guess26,27
+diff diff35,36
+diff diff36,37
+
+./hangman_vEC.hs,202
+hangman hangman3,4
+hangman hangman4,5
+guess guess11,12
+guess guess12,13
+diff diff20,21
+diff diff21,22
+sgetline sgetline23,24
+sgetline sgetline24,25
+getCh getCh33,34
+getCh getCh34,35
+
+./Hole.hs,321
+data Hole Hole6,7
+data Hole = HoleHole6,7
+data Hole1 Hole17,8
+data Hole1 a = Hole1Hole17,8
+hole hole8,9
+--compose --compose10,11
+compose compose11,12
+compose compose12,13
+--apply --apply18,19
+apply apply19,20
+--apply --apply20,21
+apply apply21,22
+filterM' filterM'53,54
+filterM' filterM'54,55
+
+./Hole_Typed.hs,322
+module Hole_Typed Hole_Typed2,3
+data Hole Hole4,5
+data Hole = HoleHole4,5
+data Hole1 Hole15,6
+data Hole1 a = Hole1 Hole15,6
+hole hole6,7
+compose compose8,9
+compose compose9,10
+apply apply15,16
+apply apply16,17
+apply' apply'34,35
+apply' apply'35,36
+filterM' filterM'52,53
+filterM' filterM'53,54
+
+./interpretor.hs,65
+type Lio Lio4,5
+test test6,7
+test test7,8
+main main12,13
+
+./io.hs,255
+putStr' putStr'0,1
+putStr' putStr'1,2
+putStrLn' putStrLn'4,5
+putStrLn' putStrLn'5,6
+getLine' getLine'8,9
+getLine' getLine'9,10
+get get11,12
+get get12,13
+interact' interact'17,18
+interact' interact'18,19
+main main21,22
+inp inp22,23
+
+./lab3.hs,318
+module Lab3 Lab30,1
+evens evens10,11
+evens evens11,12
+squares squares18,19
+squares squares19,20
+sumSquares sumSquares21,22
+sumSquares sumSquares22,23
+squares' squares'29,30
+squares' squares'30,31
+sumSquares' sumSquares'32,33
+sumSquares' sumSquares'33,34
+coords coords39,40
+coords coords40,41
+
+./lab4.hs,245
+module Lab4 Lab40,1
+triangle triangle12,13
+triangle triangle13,14
+count count20,21
+count count21,22
+xs xs25,26
+ys ys26,27
+poem poem28,29
+euclid euclid42,43
+euclid euclid43,44
+funkyMap funkyMap56,57
+funkyMap funkyMap57,58
+
+./lab5_pmctemplate.hs,766
+module Lab5 Lab50,1
+data Concurrent Concurrent4,5
+data Concurrent a = Concurrent Concurrent4,5
+data Action Action6,7
+       Atom Atom7,8
+     | Fork Fork8,9
+     | Stop Stop9,10
+writeAction writeAction11,12
+writeAction writeAction12,13
+prog prog17,18
+prog prog18,19
+instance instance20,21
+action action33,34
+action action34,35
+stop stop56,57
+stop stop57,58
+atom atom63,64
+atom atom64,65
+fork fork71,72
+fork fork72,73
+par par74,75
+par par75,76
+roundRobin roundRobin89,90
+--round --round90,91
+roundRobin roundRobin91,92
+ex0 ex0102,103
+ex0 ex0103,104
+ex1 ex1105,106
+ex1 ex1106,107
+run run116,117
+run run117,118
+genRandom genRandom119,120
+genRandom genRandom120,121
+loop loop125,126
+loop loop126,127
+
+./lab6_template.hs,1068
+data Rose Rose3,4
+data Rose a = a a3,4
+root root9,10
+root root10,11
+children children13,14
+children children14,15
+tree tree17,18
+xs xs19,20
+ex2 ex221,22
+flatten flatten27,28
+flatten flatten28,29
+size size33,34
+size size34,35
+leaves leaves36,37
+leaves leaves37,38
+ex7 ex740,41
+instance instance46,47
+ex10 ex1049,50
+class Monoid Monoid55,56
+class Monoid Monoid55,56
+  mempty mempty56,57
+  mappend mappend57,58
+newtype Sum Sum59,60
+newtype Sum a = Sum Sum59,60
+newtype Product Product60,61
+newtype Product a = Product Product60,61
+unSum unSum70,71
+unSum unSum71,72
+unProduct unProduct72,73
+unProduct unProduct73,74
+num1 num175,76
+num2 num277,78
+ex13 ex1379,80
+class Functor f => Foldable Foldable85,86
+  foldMap :: Monoid m => (a a87,88
+  fold fold86,87
+  foldMap foldMap87,88
+  foldMap foldMap88,89
+sumxs sumxs95,96
+ex15 ex1597,98
+ex17 ex17103,104
+ex18 ex18105,106
+fproduct, fsum fsum111,112
+fproduct,fproduct111,112
+fsum fsum112,113
+fproduct fproduct113,114
+ex21 ex21115,116
+
+./lab_pmctemplate.hs,622
+module Lab5 Lab50,1
+data Concurrent Concurrent4,5
+data Concurrent a = Concurrent Concurrent4,5
+data ActionAction6,7
+    = Atom Atom7,8
+    | Fork Fork8,9
+    | StopStop9,10
+instance instance11,12
+action action20,21
+action action21,22
+stop stop28,29
+stop stop29,30
+atom atom36,37
+atom atom37,38
+fork fork44,45
+fork fork45,46
+par par47,48
+par par48,49
+roundRobin roundRobin64,65
+roundRobin roundRobin65,66
+ex0 ex071,72
+ex0 ex072,73
+ex1 ex174,75
+ex1 ex175,76
+run run85,86
+run run86,87
+genRandom genRandom88,89
+genRandom genRandom89,90
+loop loop94,95
+loop loop95,96
+
+./lens_t.hs,129
+shiftAtomX shiftAtomX8,9
+shiftAtomX shiftAtomX9,10
+shiftMoleculeX shiftMoleculeX13,14
+shiftMoleculeX shiftMoleculeX14,15
+
+./lens_tutorial_1.hs,132
+shiftAtomX shiftAtomX10,11
+shiftAtomX shiftAtomX11,12
+shiftMoleculeX shiftMoleculeX13,14
+shiftMoleculeX shiftMoleculeX14,15
+
+./maybeT.hs,234
+f f2,3
+f f3,4
+g g5,6
+g g6,7
+a a8,9
+a a9,10
+fm fm11,12
+fm fm12,13
+newtype MaybeT MaybeT16,17
+newtype MaybeT m a = MaybeT MaybeT16,17
+newtype MaybeT m a = MaybeT { runMaybeT runMaybeT16,17
+instance instance21,22
+
+./mf.hs,537
+type C C1,2
+type C a a1,2
+type C C2,3
+type C m m2,3
+instance instance4,5
+data Action Action8,9
+data Action m = Atom Atom8,9
+              | Fork Fork9,10
+              | StopStop10,11
+action action12,13
+action action13,14
+atom atom15,16
+atom atom16,17
+stop stop19,20
+stop stop20,21
+par par22,23
+par par23,24
+fork fork25,26
+fork fork26,27
+round round31,32
+round round32,33
+run run39,40
+run run40,41
+loop loop45,46
+loop loop46,47
+example example49,50
+example example50,51
+mf mf55,56
+
+./monad_2_v1.hs,195
+data Term Term1,2
+data Term = Con Con1,2
+data Term = Con Int | Div Div1,2
+eval eval3,4
+eval eval4,5
+answer, error' error'7,8
+answer,answer7,8
+answer answer8,9
+error' error'9,10
+
+./monad_2_v2.hs,322
+data Term Term1,2
+data Term = Con Con1,2
+data Term = Con Int | Div Div1,2
+data M M3,4
+data M a = Raise Raise3,4
+data M a = Raise Exception | Return Return3,4
+type Exception Exception4,5
+eval eval6,7
+eval eval7,8
+answer, error' error'18,19
+answer,answer18,19
+answer answer19,20
+error' error'20,21
+
+./monad_2_vException.hs,528
+data Term Term1,2
+data Term = Con Con1,2
+          | Div Div2,3
+          | Add Add3,4
+          | Lam Lam4,5
+          | App App5,6
+type Name Name8,9
+data M M11,12
+data M a = Raise Raise11,12
+data M a = Raise Exception | Return Return11,12
+type Exception Exception12,13
+unit unit14,15
+unit unit15,16
+bind bind18,19
+m `bind`bind19,20
+raise raise23,24
+raise raise24,25
+eval eval34,35
+eval eval35,36
+answer, error' error'47,48
+answer,answer47,48
+answer answer48,49
+error' error'49,50
+
+./monad_2_vException_2.hs,435
+data Term Term3,4
+data Term = Con Con3,4
+data Term = Con Int | Div Div3,4
+data M M7,8
+data M a = Raise Raise7,8
+data M a = Raise Exception | Return Return7,8
+type Exception Exception8,9
+unit unit10,11
+unit unit11,12
+bind bind13,14
+m `bind`bind14,15
+raise raise18,19
+raise raise19,20
+eval eval27,28
+eval eval28,29
+answer, error' error'35,36
+answer,answer35,36
+answer answer36,37
+error' error'37,38
+
+./monad_2_vIdentity.hs,303
+data Term Term1,2
+data Term = Con Con1,2
+data Term = Con Int | Div Div1,2
+type I I5,6
+type I a a5,6
+unit unit7,8
+unit unit8,9
+bind bind11,12
+a `bind`bind12,13
+eval eval20,21
+eval eval21,22
+answer, error' error'24,25
+answer,answer24,25
+answer answer25,26
+error' error'26,27
+
+./monad_2_vIdentity_2.hs,302
+data Term Term1,2
+data Term = Con Con1,2
+data Term = Con Int | Div Div1,2
+type M M4,5
+type M a a4,5
+unit unit6,7
+unit unit7,8
+bind bind9,10
+a `bind`bind10,11
+eval eval19,20
+eval eval20,21
+answer, error' error'25,26
+answer,answer25,26
+answer answer26,27
+error' error'27,28
+
+./monad_2_vOutput.hs,290
+data Term Term1,2
+data Term = Con Con1,2
+data Term = Con Int | Div Div1,2
+type M M4,5
+type M a a4,5
+type Output Output5,6
+eval eval7,8
+eval eval8,9
+line line18,19
+line line19,20
+answer, error' error'21,22
+answer,answer21,22
+answer answer22,23
+error' error'23,24
+
+./monad_2_vOutput_2.hs,401
+data Term Term8,9
+data Term = Con Con8,9
+data Term = Con Int | Div Div8,9
+type M M14,15
+type M a a14,15
+type Output Output15,16
+unit unit17,18
+unit unit18,19
+bind bind20,21
+m `bind`bind21,22
+out out26,27
+out out27,28
+eval eval30,31
+eval eval31,32
+line line41,42
+line line42,43
+answer, error' error'44,45
+answer,answer44,45
+answer answer45,46
+error' error'46,47
+
+./monad_2_vParser.hs,853
+type M M4,5
+type M a a4,5
+type State State5,6
+unit unit7,8
+unit unit8,9
+bind bind10,11
+(m `bind`bind11,12
+--tick --tick17,18
+--tick --tick18,19
+data Term Term21,22
+data Term = Con Con21,22
+data Term = Con Int | Div Div21,22
+term term28,29
+term term29,30
+item item39,40
+item item40,41
+zero zero44,45
+zero zero45,46
+number number48,49
+number number49,50
+merge merge55,56
+(m `merge`merge56,57
+bias bias61,62
+(m `bias`bias62,63
+iterate' iterate'66,67
+iterate' iterate'67,68
+reiterate reiterate77,78
+reiterate reiterate78,79
+oneOrTwoItems oneOrTwoItems82,83
+oneOrTwoItems oneOrTwoItems83,84
+is is89,90
+m `is`is90,91
+letter letter93,94
+letter letter94,95
+lit lit96,97
+lit lit97,98
+digit digit99,100
+digit digit100,101
+asNumber asNumber103,104
+eval eval113,114
+eval eval114,115
+
+./monad_2_vState.hs,254
+data Term Term1,2
+data Term = Con Con1,2
+data Term = Con Int | Div Div1,2
+type M M4,5
+type M a a4,5
+type State State5,6
+eval eval7,8
+eval eval8,9
+answer, error' error'13,14
+answer,answer13,14
+answer answer14,15
+error' error'15,16
+
+./monad_2_vState_2.hs,363
+data Term Term3,4
+data Term = Con Con3,4
+data Term = Con Int | Div Div3,4
+type M M7,8
+type M a a7,8
+type State State8,9
+unit unit10,11
+unit unit11,12
+bind bind13,14
+m `bind`bind14,15
+tick tick18,19
+tick tick19,20
+eval eval29,30
+eval eval30,31
+answer, error' error'35,36
+answer,answer35,36
+answer answer36,37
+error' error'37,38
+
+./monad_2_vState_monad.hs,359
+data Term Term1,2
+data Term = Con Con1,2
+data Term = Con Int | Div Div1,2
+type M M4,5
+type M a a4,5
+type State State5,6
+unit unit7,8
+unit unit8,9
+bind bind11,12
+m `bind`bind12,13
+tick tick17,18
+tick tick18,19
+eval eval21,22
+eval eval22,23
+answer, error' error'27,28
+answer,answer27,28
+answer answer28,29
+error' error'29,30
+
+./monadEssence.hs,799
+type Name Name2,3
+data Term Term4,5
+data Term           = Var Var4,5
+                    | Con Con5,6
+                    | Add Add6,7
+                    | Lam Lam7,8
+                    | App App8,9
+data Value Value11,12
+data Value          = WrongWrong11,12
+                    | Num Num12,13
+                    | Fun Fun13,14
+type Environment Environment15,16
+type Identity Identity17,18
+type Identity a a17,18
+unitId unitId19,20
+a `bindId`bindId20,21
+showId showId21,22
+unitId unitId23,24
+bindId bindId24,25
+showval showval26,27
+showval showval27,28
+eval eval31,32
+eval eval32,33
+lookup' lookup'42,43
+lookup' lookup'43,44
+add add46,47
+add add47,48
+apply apply50,51
+apply apply51,52
+test test54,55
+test test55,56
+term0 term057,58
+
+./monadEssence_v2.hs,876
+type Name Name2,3
+data Term Term4,5
+data Term           = Var Var4,5
+                    | Con Con5,6
+                    | Add Add6,7
+                    | Lam Lam7,8
+                    | App App8,9
+data Value Value11,12
+data Value          = WrongWrong11,12
+                    | Num Num12,13
+                    | Fun Fun13,14
+type Environment Environment15,16
+data E E22,23
+data E a = Success Success22,23
+data E a = Success a | Error Error22,23
+unitE unitE24,25
+unitE unitE25,26
+errorE errorE26,27
+bindE bindE28,29
+(Success a) `bindE`bindE29,30
+showE showE32,33
+showE showE33,34
+showval showval37,38
+showval showval38,39
+eval eval43,44
+eval eval44,45
+lookup' lookup'54,55
+lookup' lookup'55,56
+add add58,59
+add add59,60
+apply apply63,64
+apply apply64,65
+test test67,68
+test test68,69
+term0 term070,71
+
+./monadEssence_v3.hs,1094
+type Name Name2,3
+type Position Position3,4
+data Term Term5,6
+data Term           = Var Var5,6
+                    | Con Con6,7
+                    | Add Add7,8
+                    | Lam Lam8,9
+                    | App App9,10
+                    | At At10,11
+data Value Value13,14
+data Value          = WrongWrong13,14
+                    | Num Num14,15
+                    | Fun Fun15,16
+type Environment Environment17,18
+type Identity Identity19,20
+type Identity a a19,20
+data E E26,27
+data E a = Success Success26,27
+data E a = Success a | Error Error26,27
+unitE unitE27,28
+errorE errorE28,29
+type P P31,32
+unitP unitP33,34
+errorP errorP35,36
+m `bindP`bindP37,38
+showP showP39,40
+resetP resetP41,42
+resetP resetP42,43
+(Success a) `bindE`bindE44,45
+showE showE47,48
+showval showval51,52
+showval showval52,53
+eval eval57,58
+eval eval58,59
+lookup' lookup'69,70
+lookup' lookup'70,71
+add add73,74
+add add74,75
+apply apply78,79
+apply apply79,80
+test test82,83
+test test83,84
+term0 term085,86
+pos0 pos088,89
+
+./monadEssence_v4.hs,1093
+type Name Name2,3
+type Position Position3,4
+data Term Term5,6
+data Term           = Var Var5,6
+                    | Con Con6,7
+                    | Add Add7,8
+                    | Lam Lam8,9
+                    | App App9,10
+                    | At At10,11
+data Value Value13,14
+data Value          = WrongWrong13,14
+                    | Num Num14,15
+                    | Fun Fun15,16
+type Environment Environment17,18
+data E E24,25
+data E a = Success Success24,25
+data E a = Success a | Error Error24,25
+unitE unitE26,27
+unitE unitE27,28
+errorE errorE28,29
+bindE bindE30,31
+(Success a) `bindE`bindE31,32
+showE showE34,35
+showE showE35,36
+type P P40,41
+type P a a40,41
+unitP unitP42,43
+errorP errorP43,44
+m `bindP`bindP45,46
+showP showP47,48
+resetP resetP49,50
+showval showval52,53
+showval showval53,54
+eval eval58,59
+eval eval59,60
+lookup' lookup'70,71
+lookup' lookup'71,72
+add add74,75
+add add75,76
+apply apply79,80
+apply apply80,81
+test test83,84
+test test84,85
+term0 term086,87
+pos0 pos089,90
+
+./monads.hs,122
+instance instance3,4
+--type --type9,10
+data ST ST11,12
+data ST a = S S11,12
+apply apply16,17
+apply apply17,18
+
+./monads15.hs,482
+import import3,4
+type Choice Choice5,6
+type Choice a a5,6
+choose choose8,9
+choose choose9,10
+pair456 pair45612,13
+pair456 pair45613,14
+join join16,17
+join join17,18
+(>(24,25
+(>>=>>=24,25
+choices choices25,26
+return return30,31
+return return31,32
+makepairs makepairs33,34
+makepairs makepairs34,35
+mzero mzero39,40
+mzero mzero40,41
+guard guard46,47
+guard guard48,49
+solveConstraint solveConstraint51,52
+solveConstraint solveConstraint52,53
+
+./monadT.hs,280
+f f2,3
+f f3,4
+fm fm5,6
+fm fm6,7
+g g8,9
+g g9,10
+a a11,12
+a a12,13
+newtype IdentityT IdentityT14,15
+newtype IdentityT f a = IdentityT IdentityT14,15
+newtype IdentityT f a = IdentityT { runIdentityT runIdentityT14,15
+instance instance17,18
+ident ident31,32
+
+./parse.hs,314
+type Parser Parser5,6
+type Parser a a5,6
+return' return'20,21
+return' return'21,22
+failure failure23,24
+failure failure24,25
+item item26,27
+item item27,28
+parse parse31,32
+parse parse32,33
+(+++)+++34,35
+p+++q p+++q35,36
+sat sat47,48
+--sat --sat48,49
+sat sat51,52
+--type --type54,55
+
+./parser_vEC_go.hs,701
+--import --import3,4
+newtype Parser Parser16,17
+newtype Parser a = P P16,17
+instance instance18,19
+parse parse51,52
+parse parse52,53
+item item57,58
+item item58,59
+failure failure62,63
+failure failure63,64
+(+++)+++74,75
+p p75,76
+sat sat80,81
+sat sat81,82
+many many84,85
+many many85,86
+many1 many187,88
+many1 many188,89
+char char92,93
+char char93,94
+string string95,96
+string string96,97
+digit digit101,102
+digit digit102,103
+letter letter104,105
+letter letter105,106
+alphanum alphanum107,108
+alphanum alphanum108,109
+space space110,111
+space space111,112
+mplus mplus114,115
+p `mplus`mplus115,116
+mzero mzero119,120
+mzero mzero120,121
+
+./parsevMonad.hs,412
+data Parser Parser6,7
+data Parser a = P P6,7
+instance instance9,10
+return' return'22,23
+return' return'23,24
+failure failure25,26
+failure failure26,27
+item item28,29
+item item29,30
+parse parse33,34
+parse parse34,35
+(+++)+++36,37
+p+++q p+++q37,38
+sat sat49,50
+sat sat50,51
+digit digit53,54
+digit digit54,55
+lower lower56,57
+lower lower57,58
+char char59,60
+char char60,61
+
+./parsing-2.lhs,1189
+ module Parsing Parsing0,1
+ instance instance7,8
+ newtype Parser Parser21,22
+ newtype Parser a              =  P P21,22
+ failure failure36,37
+ failure failure37,38
+ item item39,40
+ item item40,41
+ parse parse44,45
+ parse parse45,46
+ (+++)+++50,51
+ p p51,52
+ sat sat56,57
+ sat sat57,58
+ digit digit60,61
+ digit digit61,62
+ lower lower63,64
+ lower lower64,65
+ upper upper66,67
+ upper upper67,68
+ letter letter69,70
+ letter letter70,71
+ alphanum alphanum72,73
+ alphanum alphanum73,74
+ char char75,76
+ char char76,77
+ string string78,79
+ string string79,80
+ many many84,85
+ many many85,86
+ many1 many187,88
+ many1 many188,89
+ ident ident92,93
+ ident ident93,94
+ nat nat97,98
+ nat nat98,99
+ int int101,102
+ int int102,103
+ space space104,105
+ space space105,106
+ comment comment108,109
+ comment comment109,110
+ expr expr111,112
+ expr expr112,113
+ token token117,118
+ token token118,119
+ identifier identifier123,124
+ identifier identifier124,125
+ natural natural126,127
+ natural natural127,128
+ integer integer129,130
+ integer integer130,131
+ symbol symbol132,133
+ symbol symbol133,134
+
+./parsing-2vEC.lhs,1232
+ module Parsing Parsing0,1
+ instance instance7,8
+ newtype Parser Parser21,22
+ newtype Parser a              =  P P21,22
+ failure failure38,39
+ failure failure39,40
+ item item41,42
+ item item42,43
+ parse parse46,47
+ parse parse47,48
+ (+++)+++52,53
+ p p53,54
+ sat sat58,59
+ sat sat59,60
+ digit digit62,63
+ digit digit63,64
+ lower lower65,66
+ lower lower66,67
+ upper upper68,69
+ upper upper69,70
+ letter letter71,72
+ letter letter72,73
+ alphanum alphanum74,75
+ alphanum alphanum75,76
+ char char77,78
+ char char78,79
+ string string80,81
+ string string81,82
+ many many86,87
+ many many87,88
+ many1 many189,90
+ many1 many190,91
+ ident ident94,95
+ ident ident95,96
+ nat nat99,100
+ nat nat100,101
+ int int103,104
+ int int104,105
+ space space109,110
+ space space110,111
+ comment comment113,114
+ comment comment114,115
+ expr expr118,119
+ expr expr119,120
+ token token128,129
+ token token129,130
+ identifier identifier134,135
+ identifier identifier135,136
+ natural natural137,138
+ natural natural138,139
+ integer integer140,141
+ integer integer141,142
+ symbol symbol143,144
+ symbol symbol144,145
+ eval eval146,147
+ eval eval147,148
+
+./parsing.hs,616
+module Parsing Parsing0,1
+newtype Parser Parser8,9
+newtype Parser a = P P8,9
+failure failure10,11
+failure failure11,12
+item item13,14
+item item14,15
+parse parse18,19
+parse parse19,20
+(+++)+++21,22
+(P(22,23
+sat sat24,25
+sat sat25,26
+digit digit28,29
+digit digit29,30
+lower lower31,32
+lower lower32,33
+upper upper34,35
+upper upper35,36
+letter letter37,38
+letter letter38,39
+alphanum alphanum40,41
+alphanum alphanum41,42
+char char43,44
+char char44,45
+string string46,47
+string string47,48
+many' many'52,53
+many' many'53,54
+many1 many155,56
+many1 many156,57
+
+./parsing.lhs,0
+
+./people_functor.hs,535
+--data --data1,2
+data Person Person9,10
+data Person = Person Person9,10
+data Person = Person { getName getName9,10
+                     , getAge getAge10,11
+                     , getIncome getIncome11,12
+pat pat13,14
+pat pat14,15
+jim jim16,17
+jim jim17,18
+persons persons19,20
+persons persons20,21
+liftedFpat liftedFpat22,23
+liftedFjim liftedFjim23,24
+data User User25,26
+data User = UserUser25,26
+parseJSON parseJSON31,32
+parseJSON parseJSON32,33
+--sumAge --sumAge45,46
+--sumAge --sumAge46,47
+
+./phantom.hs,135
+f f4,5
+f f5,6
+newtype Acc Acc9,10
+newtype Acc o a = Acc Acc9,10
+newtype Acc o a = Acc { acc:acc9,10
+instance instance11,12
+
+./pipes-project/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/autogen/Paths_pipes_project.hs,976
+module Paths_pipes_project Paths_pipes_project0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version14,15
+version version15,16
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir16,17
+bindir, libdir, datadir, libexecdir,libexecdir16,17
+bindir, libdir, datadir,datadir16,17
+bindir, libdir,libdir16,17
+bindir,bindir16,17
+bindir bindir18,19
+libdir libdir19,20
+datadir datadir20,21
+libexecdir libexecdir21,22
+sysconfdir sysconfdir22,23
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir24,25
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir24,25
+getBinDir, getLibDir, getDataDir,getDataDir24,25
+getBinDir, getLibDir,getLibDir24,25
+getBinDir,getBinDir24,25
+getBinDir getBinDir25,26
+getLibDir getLibDir26,27
+getDataDir getDataDir27,28
+getLibexecDir getLibexecDir28,29
+getSysconfDir getSysconfDir29,30
+getDataFileName getDataFileName31,32
+getDataFileName getDataFileName32,33
+
+./pipes-project/Setup.hs,15
+main main1,2
+
+./pipes-project/src/Main.hs,57
+--main --main2,3
+--main --main3,4
+import import8,9
+
+./pipes-project/src/pipes_101.hs,15
+main main5,6
+
+./pipes-project/src/pipes_102.hs,17
+main main11,12
+
+./pipes_101.hs,352
+data Chunk Chunk8,9
+data Chunk = Chunk Chunk8,9
+data Chunk = Chunk   { chunk chunk8,9
+           | LineEnd LineEnd9,10
+           | LineEnd { chunk chunk9,10
+                     , remainder remainder10,11
+parseChunk parseChunk12,13
+parseChunk parseChunk13,14
+main main21,22
+main main22,23
+main_1 main_147,48
+main_1 main_148,49
+
+./pipes_102.hs,350
+stdinLn stdinLn17,18
+stdinLn stdinLn18,19
+stdoutLn stdoutLn28,29
+stdoutLn stdoutLn29,30
+--loop --loop42,43
+--loop --loop43,44
+--runEffect --runEffect47,48
+triple triple49,50
+triple triple50,51
+doubleUp doubleUp54,55
+doubleUp doubleUp55,56
+loop loop61,62
+loop loop62,63
+main main64,65
+--main --main66,67
+main main68,69
+
+./pipes_103.hs,155
+main main11,12
+take take34,35
+take take35,36
+maxInput maxInput41,42
+maxInput maxInput42,43
+maxOutput maxOutput44,45
+maxOutput maxOutput45,46
+
+./pipes_104.hs,138
+data File File5,6
+data File = File File5,6
+data File = File {name:name5,6
+inFile inFile8,9
+outFile outFile9,10
+main main12,13
+
+./pipes_105.hs,446
+yieldZero yieldZero5,6
+yieldZero yieldZero6,7
+yieldOne yieldOne8,9
+yieldOne yieldOne9,10
+yieldTwo yieldTwo11,12
+yieldTwo yieldTwo12,13
+yieldFour yieldFour17,18
+yieldFour yieldFour18,19
+twice twice23,24
+twice twice24,25
+echoTwice echoTwice28,29
+echoTwice echoTwice29,30
+echoTwice' echoTwice'31,32
+echoTwice' echoTwice'32,33
+useString useString34,35
+echo echo46,47
+echo echo47,48
+main main49,50
+main main50,51
+
+./pipes_105t.hs,446
+yieldZero yieldZero5,6
+yieldZero yieldZero6,7
+yieldOne yieldOne8,9
+yieldOne yieldOne9,10
+yieldTwo yieldTwo11,12
+yieldTwo yieldTwo12,13
+yieldFour yieldFour17,18
+yieldFour yieldFour18,19
+twice twice23,24
+twice twice24,25
+echoTwice echoTwice28,29
+echoTwice echoTwice29,30
+echoTwice' echoTwice'31,32
+echoTwice' echoTwice'32,33
+useString useString34,35
+echo echo46,47
+echo echo47,48
+main main49,50
+main main50,51
+
+./pipes_106.hs,371
+data File File9,10
+data File = File File9,10
+data File = File {name:name9,10
+inFile inFile10,11
+inFile inFile11,12
+data Person Person13,14
+data Person = Person Person13,14
+data Person = Person { fname fname13,14
+                     , age age14,15
+instance instance16,17
+persons persons21,22
+persons persons24,25
+main main26,27
+main main27,28
+
+./pipes_107.hs,97
+sum10 sum107,8
+sum10 sum108,9
+main main10,11
+average average13,14
+average average14,15
+
+./pipes_108.hs,64
+diff diff3,4
+diff diff4,5
+main main11,12
+main main12,13
+
+./pipes_110.hs,516
+data File File10,11
+data File = File File10,11
+data File = File {name:name10,11
+inFile inFile11,12
+inFile inFile12,13
+data Rec Rec14,15
+data Rec = R R14,15
+data Rec = R   { uid uid14,15
+               , specialty specialty15,16
+               , m1 m116,17
+               , m2 m217,18
+               , m3 m318,19
+               , m4 m419,20
+               , m5 m520,21
+type Uid Uid23,24
+type Uid = =23,24
+records records27,28
+records records30,31
+main main32,33
+main main33,34
+
+./pipes_110_avg.hs,809
+data File File14,15
+data File = File File14,15
+data File = File {name:name14,15
+inFile inFile15,16
+inFile inFile16,17
+data Rec Rec18,19
+data Rec = R R18,19
+data Rec = R   { uid uid18,19
+               , specialty specialty19,20
+               , m1 m120,21
+               , m2 m221,22
+               , m3 m322,23
+               , m4 m423,24
+               , m5 m524,25
+data RecP RecP27,28
+data RecP = RP RP27,28
+data RecP = RP { uidP uidP27,28
+               , specialtyP specialtyP28,29
+               , timeSeriesP timeSeriesP29,30
+type Uid Uid32,33
+type Uid = =32,33
+type TimeSeries TimeSeries33,34
+records records37,38
+records records40,41
+main main42,43
+main main43,44
+toP toP50,51
+toP toP51,52
+duplicate duplicate55,56
+duplicate duplicate56,57
+
+./pipes_110_avg_v0.hs,699
+import import7,8
+data InputRow InputRow20,21
+data InputRow = InputRowInputRow20,21
+    { input_record_id input_record_id21,22
+    , input_val_t1 input_val_t122,23
+    , input_val_t2 input_val_t223,24
+    , input_val_t3 input_val_t324,25
+    , input_val_t4 input_val_t425,26
+instance instance28,29
+data OutputRow OutputRow39,40
+data OutputRow = OutputRowOutputRow39,40
+    { output_record_id output_record_id40,41
+    , output_val_t1 output_val_t141,42
+    , output_val_t2 output_val_t242,43
+    , output_val_t3 output_val_t343,44
+    , output_val_t4 output_val_t444,45
+    , output_avg_t1_t4 output_avg_t1_t445,46
+fold fold59,60
+fold fold60,61
+main main82,83
+
+./pipes_110_avg_v2.hs,830
+import import7,8
+data InputRow InputRow20,21
+data InputRow = InputRowInputRow20,21
+    { input_record_id input_record_id21,22
+    , input_val_t1 input_val_t122,23
+    , input_val_t2 input_val_t223,24
+    , input_val_t3 input_val_t324,25
+    , input_val_t4 input_val_t425,26
+    , input_val_t5 input_val_t526,27
+parseNamedRecord parseNamedRecord30,31
+data OutputRow OutputRow41,42
+data OutputRow = OutputRowOutputRow41,42
+    { output_record_id output_record_id42,43
+    , output_val_t1 output_val_t143,44
+    , output_val_t2 output_val_t244,45
+    , output_val_t3 output_val_t345,46
+    , output_val_t4 output_val_t446,47
+    , output_val_t5 output_val_t547,48
+    , output_avg_t1_t5 output_avg_t1_t548,49
+toNamedRecord toNamedRecord52,53
+fold fold63,64
+fold fold64,65
+main main88,89
+
+./Pipes_Design.hs,48
+ readFile readFile7,8
+ readFile readFile8,9
+
+./pipes_exercise_1.hs,84
+takeWhile takeWhile6,7
+takeWhile takeWhile7,8
+main main15,16
+main main16,17
+
+./pipes_exercise_2.hs,60
+map map7,8
+map map8,9
+main main18,19
+main main19,20
+
+./pipes_nested.hs,163
+duplicate duplicate4,5
+duplicate duplicate5,6
+loop loop9,10
+loop loop10,11
+main main12,13
+main main13,14
+average average22,23
+average average23,24
+
+./pipes_talk.hs,79
+makeSandwich makeSandwich3,4
+makeSandwich makeSandwich4,5
+main main10,11
+
+./Primitives1.hs,97
+module Primitives1 Primitives10,1
+await' await'8,9
+yield' yield'11,12
+yield' yield'12,13
+
+./Primitives2Consumers.hs,166
+module Primitives2Consumers Primitives2Consumers0,1
+findFirst findFirst5,6
+findFirst findFirst6,7
+printThings printThings12,13
+printThings printThings13,14
+
+./Primitives3Producers.hs,141
+module Primitives3Producers Primitives3Producers0,1
+rands rands4,5
+rands rands5,6
+serialize serialize9,10
+serialize serialize10,11
+
+./reader.hs,226
+data Config Config1,2
+data Config = Config Config1,2
+data Config = Config {discountRate:discountRate1,2
+                      currencySym:currencySym2,3
+appCfg appCfg4,5
+discount discount6,7
+discount discount7,8
+
+./reader_3.hs,794
+newtype Reader Reader4,5
+newtype Reader e a = Reader Reader4,5
+newtype Reader e a = Reader { runReader runReader4,5
+data Either' Either'6,7
+data Either' e a = Left' Left'6,7
+data Either' e a = Left' e | Right' Right'6,7
+data Range Range9,10
+data Range = TooSmall TooSmall9,10
+data Range = TooSmall | Zero Zero9,10
+data Range = TooSmall | Zero | One One9,10
+data Range = TooSmall | Zero | One | Two Two9,10
+data Range = TooSmall | Zero | One | Two | Three Three9,10
+data Range = TooSmall | Zero | One | Two | Three | TooBigTooBig9,10
+instance instance12,13
+--ask --ask30,31
+pm pm32,33
+pm pm33,34
+list list35,36
+comp comp37,38
+comp comp38,39
+comp' comp'40,41
+comp' comp'41,42
+range range44,45
+range range45,46
+toInt toInt52,53
+toInt toInt53,54
+
+./readerscratch.hs,176
+hurr hurr3,4
+durr durr4,5
+m m6,7
+m m7,8
+m' m'11,12
+m' m'12,13
+m2 m218,19
+m2 m219,20
+m3 m321,22
+m3 m322,23
+hurrDurr hurrDurr24,25
+hurrDurr hurrDurr25,26
+
+./readerscratch2.hs,302
+cap cap3,4
+cap cap4,5
+rev rev6,7
+rev rev7,8
+composed composed9,10
+composed composed10,11
+fmapped fmapped12,13
+fmapped fmapped13,14
+tupled tupled19,20
+tupled tupled20,21
+tupled' tupled'22,23
+tupled' tupled'23,24
+hole hole31,32
+tupled'' tupled''33,34
+tupled'' tupled''34,35
+
+./readerscratch3.hs,866
+newtype Reader Reader4,5
+    Reader Reader5,6
+    Reader { runReader runReader5,6
+instance instance7,8
+ask ask19,20
+ask ask20,21
+newtype HumanName HumanName26,27
+newtype HumanName = HumanName HumanName26,27
+newtype DogName DogName27,28
+newtype DogName = DogName DogName27,28
+newtype Address Address28,29
+newtype Address = Address Address28,29
+data Person Person30,31
+data Person = Person Person30,31
+data Person = Person { humanName humanName30,31
+                     , dogName dogName31,32
+                     , address address32,33
+data Dog Dog35,36
+data Dog = Dog Dog35,36
+data Dog = Dog { dogsName dogsName35,36
+               , dogsAddress dogsAddress36,37
+pers pers39,40
+pers pers40,41
+chris chris44,45
+chris chris45,46
+getDog getDog49,50
+getDog getDog50,51
+getDogR getDogR56,57
+getDogR getDogR57,58
+
+./readerT.hs,299
+f f2,3
+f f3,4
+g g5,6
+g g6,7
+a a8,9
+a a9,10
+rc rc11,12
+rc rc12,13
+fm fm14,15
+fm fm15,16
+at at17,18
+at at18,19
+newtype ReaderT ReaderT34,35
+newtype ReaderT r m a = ReaderT ReaderT34,35
+newtype ReaderT r m a = ReaderT { runReaderT runReaderT34,35
+instance instance41,42
+
+./readerT_ex.hs,501
+module ReaderPractice ReaderPractice0,1
+x=x5,6
+y=y6,7
+z=z7,8
+--lookup --lookup9,10
+--lookup --lookup10,11
+xs xs13,14
+xs xs14,15
+ys ys17,18
+ys ys18,19
+zs zs24,25
+zs zs25,26
+z' z'28,29
+z' z'29,30
+x1 x132,33
+x1 x133,34
+x2 x235,36
+x2 x236,37
+x3 x338,39
+x3 x339,40
+--uncurry --uncurry41,42
+summed summed42,43
+summed summed43,44
+s' s'49,50
+s' s'50,51
+bolt bolt52,53
+bolt bolt54,55
+sequA sequA56,57
+sequA sequA57,58
+main main59,60
+main main60,61
+
+./regression.hs,51
+pearson pearson0,1
+â© â©8,9
+main main12,13
+
+./scratch.hs,4989
+data GuessWhat GuessWhat6,7
+data GuessWhat = Chickenbutt Chickenbutt6,7
+trivialValue trivialValue10,11
+trivialValue trivialValue11,12
+data Id Id14,15
+data Id a = MkId MkId14,15
+idInt idInt18,19
+idInt idInt19,20
+idIdentity idIdentity21,22
+idIdentity idIdentity22,23
+data Product Product24,25
+data Product a b = Product Product24,25
+data Sum Sum26,27
+data Sum a b = First First26,27
+             | Second Second27,28
+data RecordProduct RecordProduct29,30
+data RecordProduct a b = RecordProductRecordProduct29,30
+    {  pfirst pfirst30,31
+     , psecond:psecond31,32
+newtype NumCow NumCow36,37
+    NumCow NumCow37,38
+newtype NumPig NumPig39,40
+    NumPig NumPig40,41
+newtype NumSheep NumSheep42,43
+    NumSheep NumSheep43,44
+data Farmhouse Farmhouse46,47
+    Farmhouse Farmhouse47,48
+type Farmhouse1 Farmhouse149,50
+data BigFarmhouse BigFarmhouse52,53
+    BigFarmhouse BigFarmhouse53,54
+type BigFarmhouse' BigFarmhouse'55,56
+type Name Name58,59
+type Age Age59,60
+type LovesMud LovesMud60,61
+type PoundsOfWool PoundsOfWool66,67
+data CowInfo CowInfo68,69
+    CowInfo CowInfo69,70
+data PigInfo PigInfo71,72
+    PigInfo PigInfo72,73
+data SheepInfo SheepInfo74,75
+    SheepInfo SheepInfo75,76
+data Animal Animal77,78
+data Animal = Cow Cow77,78
+            | Pig Pig78,79
+            | Sheep Sheep79,80
+type Awesome Awesome81,82
+--type --type82,83
+person person84,85
+person person85,86
+data Twitter Twitter87,88
+    Twitter Twitter88,89
+data AskFm AskFm89,90
+    AskFm AskFm90,91
+socialNetwork socialNetwork92,93
+socialNetwork socialNetwork93,94
+data OperatingSystem OperatingSystem95,96
+data OperatingSystem = GnuPlusLinuxGnuPlusLinux95,96
+                     | OpenBSDPlusNevermindJustBSDStill OpenBSDPlusNevermindJustBSDStill96,97
+                     | OpenBSDPlusNevermindJustBSDStill | MacMac96,97
+                     | Windows Windows97,98
+data ProgrammingLanguage ProgrammingLanguage99,100
+data ProgrammingLanguage = HaskellHaskell99,100
+                         | AgdaAgda100,101
+                         | IdrisIdris101,102
+                         | PureScript PureScript102,103
+data Programmer Programmer104,105
+data Programmer = Programmer Programmer104,105
+data Programmer = Programmer { os os104,105
+                             , lang lang105,106
+allOperatingSystems allOperatingSystems109,110
+allOperatingSystems allOperatingSystems110,111
+allLanguages allLanguages116,117
+allLanguages allLanguages117,118
+allProgrammers allProgrammers119,120
+allProgrammers allProgrammers120,121
+data Car Car123,124
+data Car = Car Car123,124
+data Car = Car { make make123,124
+               , model model124,125
+               , year year125,126
+data Automobile Automobile129,130
+data Automobile = NullNull129,130
+                | Automobile Automobile130,131
+data Quantum Quantum139,140
+data Quantum = YesYes139,140
+             | NoNo140,141
+             | Both Both141,142
+--data --data147,148
+data BinaryTree BinaryTree161,162
+data BinaryTree a = Leaf Leaf161,162
+                  | Node Node162,163
+mapTree mapTree165,166
+mapTree mapTree166,167
+insert' insert'172,173
+insert' insert'173,174
+mtree mtree178,179
+mtree' mtree'179,180
+preorder preorder181,182
+preorder preorder182,183
+inorder inorder187,188
+inorder inorder188,189
+postorder postorder190,191
+postorder postorder191,192
+testTree testTree193,194
+testTree testTree194,195
+testPreorder testPreorder196,197
+testPreorder testPreorder197,198
+testInorder testInorder202,203
+testInorder testInorder203,204
+testPostorder testPostorder208,209
+testPostorder testPostorder209,210
+data CountingBad CountingBad214,215
+data CountingBad a = Heisenberg Heisenberg214,215
+instance instance215,216
+replaceWithP replaceWithP222,223
+replaceWithP replaceWithP223,224
+replaceWithP' replaceWithP'226,227
+replaceWithP' replaceWithP'227,228
+lms lms229,230
+lms lms230,231
+liftedReplace liftedReplace232,233
+liftedReplace liftedReplace234,235
+liftedReplace' liftedReplace'237,238
+liftedReplace' liftedReplace'238,239
+twiceLifted twiceLifted240,241
+twiceLifted twiceLifted242,243
+twiceLifted' twiceLifted'245,246
+twiceLifted' twiceLifted'246,247
+thriceLifted thriceLifted249,250
+thriceLifted thriceLifted251,252
+thriceLifted' thriceLifted'254,255
+thriceLifted' thriceLifted'255,256
+main main257,258
+main main258,259
+newtype Constant Constant277,278
+newtype Constant a b = Constant Constant277,278
+newtype Constant a b = Constant { getConstant getConstant277,278
+--liftA2 --liftA2285,286
+f f287,288
+g g288,289
+h h289,290
+m m290,291
+newtype Identity Identity292,293
+newtype Identity a = Identity Identity292,293
+--join --join302,303
+--fmap --fmap303,304
+bind bind306,307
+bind bind307,308
+twiceWhenEven twiceWhenEven309,310
+twiceWhenEven twiceWhenEven310,311
+
+./scratch_2.hs,68
+--main --main0,1
+--main --main1,2
+myDo myDo5,6
+myDo myDo6,7
+
+./scratch_compose.hs,867
+newtype Identity Identity6,7
+newtype Identity a = Identity Identity6,7
+instance instance8,9
+newtype One One23,24
+newtype One f a = One One23,24
+newtype Three Three31,32
+newtype Three f g h a = Three Three31,32
+newtype Wrap Wrap40,41
+newtype Wrap f a = Wrap Wrap40,41
+newtype Wrap f a = Wrap { getWrap getWrap40,41
+newtype Compose Compose59,60
+newtype Compose f g a = Compose Compose59,60
+newtype Compose f g a = Compose { getCompose getCompose59,60
+data Two Two93,94
+data Two a' a = Two Two93,94
+data Or Or99,100
+data Or  a' a = First First99,100
+             | Second Second100,101
+incIfRight incIfRight109,110
+incIfRight incIfRight110,111
+incEither incEither113,114
+incEither incEither114,115
+showIfRight showIfRight116,117
+showIfRight showIfRight117,118
+showEither showEither120,121
+showEither showEither121,122
+
+./scratch_monad.hs,686
+bind bind7,8
+bind bind8,9
+data Sum Sum13,14
+data Sum a' a  = First First13,14
+              | Second Second14,15
+instance instance16,17
+twiceWhenEven twiceWhenEven32,33
+twiceWhenEven twiceWhenEven33,34
+data Cow Cow39,40
+data Cow = Cow Cow39,40
+data Cow = Cow { name name39,40
+               , age age40,41
+               , weight weight41,42
+noEmpty noEmpty43,44
+noEmpty noEmpty44,45
+noNegative noNegative47,48
+noNegative noNegative48,49
+weightCheck weightCheck52,53
+weightCheck weightCheck53,54
+mkSphericalCow mkSphericalCow59,60
+mkSphericalCow mkSphericalCow60,61
+mkSphericalCow' mkSphericalCow'68,69
+mkSphericalCow' mkSphericalCow'69,70
+
+./scratch_reader.hs,97
+hurr hurr2,3
+durr durr3,4
+m m5,6
+m m6,7
+m2 m28,9
+m2 m29,10
+m3 m311,12
+m3 m312,13
+
+./simple_datatypes.hs,491
+data Example Example11,12
+data Example = MakeExample MakeExample11,12
+--data --data18,19
+newtype Goats Goats24,25
+newtype Goats = Goats Goats24,25
+newtype Cows Cows25,26
+newtype Cows = Cows Cows25,26
+--newtype --newtype26,27
+--tooManyGoats --tooManyGoats28,29
+--tooManyGoats --tooManyGoats29,30
+tooManyGoats tooManyGoats30,31
+tooManyGoats tooManyGoats31,32
+class TooMany TooMany34,35
+class TooMany TooMany34,35
+    tooMany tooMany35,36
+instance instance37,38
+
+./simple_datatypes_2.hs,2098
+newtype NumCow NumCow4,5
+newtype NumCow = NumCow NumCow4,5
+newtype NumPig NumPig6,7
+newtype NumPig = NumPig NumPig6,7
+data Farmhouse Farmhouse8,9
+data Farmhouse = Farmhouse Farmhouse8,9
+type Farmhouse' Farmhouse'10,11
+data GuessWhat GuessWhat12,13
+data GuessWhat = Chickenbutt Chickenbutt12,13
+data Product Product14,15
+data Product a b = Product Product14,15
+data Sum Sum16,17
+data Sum a b = First First16,17
+             | Second Second17,18
+data RecordProduct RecordProduct20,21
+        RecordProduct RecordProduct21,22
+        RecordProduct { pfirst pfirst21,22
+                      , psecond psecond22,23
+newtype NumSheep NumSheep24,25
+newtype NumSheep = NumSheep NumSheep24,25
+data BigFarmhouse BigFarmhouse25,26
+data BigFarmhouse = BigFarmhouse BigFarmhouse25,26
+type BigFarmhouse' BigFarmhouse'26,27
+--type --type28,29
+type Age Age29,30
+type LovesMud LovesMud30,31
+type PoundsOfWool PoundsOfWool36,37
+data CowInfo CowInfo37,38
+data CowInfo = CowInfo CowInfo37,38
+data PigInfo PigInfo38,39
+data PigInfo = PigInfo PigInfo38,39
+data SheepInfo SheepInfo39,40
+data SheepInfo = SheepInfo SheepInfo39,40
+data Animal Animal40,41
+data Animal = Cow Cow40,41
+            | Pig Pig41,42
+            | Sheep Sheep42,43
+trivialValue trivialValue44,45
+trivialValue trivialValue45,46
+data Id Id48,49
+data Id a = MkId MkId48,49
+idInt idInt49,50
+idInt idInt50,51
+idIdentity idIdentity58,59
+idIdentity idIdentity59,60
+type Awesome Awesome66,67
+type Name Name67,68
+person person70,71
+person person71,72
+data Twitter Twitter73,74
+data Twitter = Twitter Twitter73,74
+data AskFm AskFm74,75
+data AskFm = AskFm AskFm74,75
+socialNetwork socialNetwork88,89
+socialNetwork socialNetwork89,90
+--data --data94,95
+twitter twitter96,97
+twitter twitter97,98
+askfm askfm99,100
+askfm askfm100,101
+type MyInt MyInt102,103
+getMyInt getMyInt103,104
+getMyInt getMyInt104,105
+getMyString getMyString106,107
+getMyString getMyString107,108
+getMyChars getMyChars109,110
+getMyChars getMyChars110,111
+
+./stack-project/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/autogen/Paths_stack_project.hs,976
+module Paths_stack_project Paths_stack_project0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version14,15
+version version15,16
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir16,17
+bindir, libdir, datadir, libexecdir,libexecdir16,17
+bindir, libdir, datadir,datadir16,17
+bindir, libdir,libdir16,17
+bindir,bindir16,17
+bindir bindir18,19
+libdir libdir19,20
+datadir datadir20,21
+libexecdir libexecdir21,22
+sysconfdir sysconfdir22,23
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir24,25
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir24,25
+getBinDir, getLibDir, getDataDir,getDataDir24,25
+getBinDir, getLibDir,getLibDir24,25
+getBinDir,getBinDir24,25
+getBinDir getBinDir25,26
+getLibDir getLibDir26,27
+getDataDir getDataDir27,28
+getLibexecDir getLibexecDir28,29
+getSysconfDir getSysconfDir29,30
+getDataFileName getDataFileName31,32
+getDataFileName getDataFileName32,33
+
+./stack-project/Setup.hs,15
+main main1,2
+
+./stack-project/src/Main.hs,102
+module Main Main0,1
+stdinLn stdinLn18,19
+stdinLn stdinLn19,20
+main main28,29
+main main29,30
+
+./stateSt.hs,167
+f f2,3
+f f3,4
+stateA stateA5,6
+stateF stateF6,7
+newtype St St8,9
+newtype St s a = St St8,9
+newtype St s a = St { runSt runSt8,9
+instance instance10,11
+
+./stateT.hs,262
+f f2,3
+f f3,4
+fm fm5,6
+fm fm6,7
+ma ma8,9
+ma ma9,10
+stateA stateA11,12
+stateF stateF12,13
+newtype StateT StateT18,19
+newtype StateT s m a = StateT StateT18,19
+newtype StateT s m a = StateT { runStateT runStateT18,19
+instance instance21,22
+
+./temp.hs,310
+data InputRow InputRow2,3
+data InputRow = InputRowInputRow2,3
+               { uid uid3,4
+               , specialty specialty4,5
+               , timeSeries timeSeries5,6
+data TimeSeries TimeSeries8,9
+data TimeSeries = TimeSeries TimeSeries8,9
+type Uid Uid9,10
+type Specialty Specialty10,11
+
+./typedefs.hs,1028
+data Expr Expr8,9
+data Expr = Add Add8,9
+          | Val Val9,10
+data Nat Nat12,13
+data Nat = ZeroZero12,13
+         | Succ Succ13,14
+data Tree Tree22,23
+data Tree = Leaf Leaf22,23
+          | Node Node23,24
+data Tree' Tree'26,27
+data Tree' = Leaf' Leaf'26,27
+           | Node' Node'27,28
+natToInteger natToInteger30,31
+natToInteger natToInteger31,32
+--natToInteger --natToInteger34,35
+--xnatToInteger --xnatToInteger35,36
+integerToNat integerToNat39,40
+integerToNat integerToNat40,41
+--xintegerToNat --xintegerToNat42,43
+--integerToNat --integerToNat43,44
+add add52,53
+add add53,54
+--xadd --xadd56,57
+mult mult58,59
+mult mult59,60
+--compare --compare62,63
+occurs occurs63,64
+--occurs --occurs64,65
+occurs occurs69,70
+balanced balanced75,76
+leaves leaves76,77
+balanced balanced78,79
+balance balance82,83
+halve halve84,85
+balance balance85,86
+mTree mTree89,90
+mTree' mTree'93,94
+mTree'' mTree''96,97
+mempty mempty98,99
+(<(99,100
+fold fold100,101
+
+./types.hs,1077
+powerset powerset1,2
+powerset powerset2,3
+const' const'6,7
+const' const'7,8
+const'' const''10,11
+const'' const''11,12
+sequence_' sequence_'13,14
+sequence_' sequence_'14,15
+--sequence_' --sequence_'16,17
+--x --x19,20
+sequence' sequence'27,28
+sequence' sequence'28,29
+--sequence' --sequence'35,36
+mapM' mapM'55,56
+mapM' mapM'56,57
+--xmapM' --xmapM'61,62
+--mapM' --mapM'66,67
+filterM' filterM'77,78
+filterM' filterM'78,79
+--xfilterM' --xfilterM'83,84
+keepSmall keepSmall93,94
+keepSmall keepSmall94,95
+binsSmallsL binsSmallsL101,102
+binsSmallsL binsSmallsL102,103
+binsSmallsR binsSmallsR107,108
+binsSmallsR binsSmallsR108,109
+foldLeftM foldLeftM114,115
+foldLeftM foldLeftM115,116
+--foldLeftM --foldLeftM119,120
+foldl' foldl'124,125
+foldl' foldl'125,126
+foldRightM foldRightM137,138
+foldRightM foldRightM138,139
+--xfoldRightM --xfoldRightM141,142
+foldr' foldr'144,145
+foldr' foldr'145,146
+liftM liftM153,154
+liftM liftM154,155
+--xliftM --xliftM155,156
+--liftM --liftM163,164
+lsmonads lsmonads167,168

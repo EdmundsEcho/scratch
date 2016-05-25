@@ -1,0 +1,18 @@
+Configuring pipes-safe-2.2.3...
+Building pipes-safe-2.2.3...
+Preprocessing library pipes-safe-2.2.3...
+[1 of 2] Compiling Pipes.Safe       ( src/Pipes/Safe.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Pipes/Safe.o )
+
+src/Pipes/Safe.hs:88:1: Warning:
+    The import of ‘Applicative’
+    from module ‘Control.Applicative’ is redundant
+
+src/Pipes/Safe.hs:133:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[2 of 2] Compiling Pipes.Safe.Prelude ( src/Pipes/Safe/Prelude.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Pipes/Safe/Prelude.o )
+In-place registering pipes-safe-2.2.3...
+Installing library in
+/Users/edmund/.stack/snapshots/x86_64-osx/lts-5.0/7.10.3/lib/x86_64-osx-ghc-7.10.3/pipes-safe-2.2.3-EPPdlAjADYeIzt2loXJuXW
+Registering pipes-safe-2.2.3...

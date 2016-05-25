@@ -1,0 +1,130 @@
+
+==================== FINAL INTERFACE ====================
+2016-01-26 15:31:03.448283 UTC
+
+interface main@main:Main 7103
+  interface hash: 008c94019426f85260f68b329f118d35
+  ABI hash: 8cdc80c12575cc9d087b20939138c239
+  export-list hash: 05abb9c69270ffef19a39a26339c0539
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 564e667b0120c47a4ca3a855b9010550
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.greet
+  Main.main
+  Main.stdinLn
+module dependencies:
+package dependencies: base-4.8.2.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 mmorph-1.0.5@mmorp_EsJtL6n9y2HIe44mBcTsVR
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      pipes-4.1.8@pipes_IEsa7drvjRZ2asKfMne2Bk*
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:GHC.Generics
+import  -/  base-4.8.2.0:Control.Monad 480c5067477275068c9b98be08410df9
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.IO.Handle.FD 43ef1c409a5b322c789fa1f7098e143b
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.IO 0899686bfc1d9ef72dff3de85e99862a
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  pipes-4.1.8@pipes_IEsa7drvjRZ2asKfMne2Bk:Pipes 3c2ce92526b8c4668fca9c5f12eb85ea
+import  -/  pipes-4.1.8@pipes_IEsa7drvjRZ2asKfMne2Bk:Pipes.Core 71efd10c15195429960eff9b2cf5c42b
+import  -/  pipes-4.1.8@pipes_IEsa7drvjRZ2asKfMne2Bk:Pipes.Prelude 861a43fe3da8773f8f0aad716b0f3e67
+import  -/  transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Class f629605e4c93de7ab5f6a3350107b4d1
+e8b931c3bdf86073255513a91e0dc0b0
+  $sunless1 ::
+    Pipes.Internal.Proxy
+      Pipes.Internal.X () () GHC.Base.String GHC.Types.IO ()
+  {- HasNoCafRefs, Strictness: m4,
+     Unfolding: (Pipes.Internal.Pure
+                   @ Pipes.Internal.X
+                   @ ()
+                   @ ()
+                   @ [GHC.Types.Char]
+                   @ GHC.Types.IO
+                   @ ()
+                   GHC.Tuple.()) -}
+a8689d751ca9d457b2d66190a6da668c
+  greet :: [GHC.Types.Char] -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: (\ name :: [GHC.Types.Char] ->
+                 GHC.CString.unpackAppendCString#
+                   "Hello "#
+                   (GHC.Base.++ @ GHC.Types.Char name Main.greet1)) -}
+101d254012cf6bc87c607a959ddb81ff
+  greet1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "!"#) -}
+b14412c2df48b808803e39137d3d9536
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+15074f151512edb3b33ad22a6cd80dfd
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        Main.main4
+                        GHC.Types.True
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Main.main2
+                   GHC.Types.True
+                   ipv }) -}
+bc9bf004c4bb9677b90c357e7e294eff
+  main2 :: [GHC.Types.Char]
+  {- Unfolding: (Main.greet Main.main3) -}
+ddde05172f1c794b2c1d54e1b961018d
+  main3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "bobby"#) -}
+4786ef3a83582451fab6a22fe3d60f36
+  main4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "hello world"#) -}
+ebe40adf1e1a61e59fafacc665b80b2e
+  main5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+ec8cb862ec920929986b75aacbc22429
+  stdinLn :: Pipes.Core.Producer GHC.Base.String GHC.Types.IO ()
+  {- Strictness: m3,
+     Unfolding: (Pipes.Internal.M
+                   @ Pipes.Internal.X
+                   @ ()
+                   @ ()
+                   @ [GHC.Types.Char]
+                   @ GHC.Types.IO
+                   @ ()
+                   Main.stdinLn1
+                     `cast`
+                   (Sym (GHC.Types.NTCo:IO[0]
+                             <Pipes.Internal.Proxy
+                                Pipes.Internal.X () () [GHC.Types.Char] GHC.Types.IO ()>_R))) -}
+09678585a55b9d14e26d4080e5289e23
+  stdinLn1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Pipes.Internal.Proxy
+            Pipes.Internal.X () () [GHC.Types.Char] GHC.Types.IO () #)
+  {- Arity: 1, Strictness: <L,U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
